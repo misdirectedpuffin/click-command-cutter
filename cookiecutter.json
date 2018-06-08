@@ -7,6 +7,8 @@
     "package_description": "An opinionated, minimal cookiecutter template for Python packages",
     "package_url": "https://github.com/borntyping/cookiecutter-pypackage-minimal",
     
+    "cli_entrypoint": "entrypoint",
+
     "readme_pypi_badge": true,
     "readme_travis_badge": true,
     "readme_travis_url": "https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal"
