@@ -8,8 +8,8 @@
 {%- endif %}
 
 {% if cookiecutter.readme_travis_badge -%}
-.. image:: {{ cookiecutter.readme_travis_url }}.png
-   :target: {{ cookiecutter.readme_travis_url }}
+.. image:: https://travis-ci.org/{{ cookiecutter.author_name }}/{{ cookiecutter.package_name }}.png
+   :target: https://travis-ci.org/{{ cookiecutter.author_name }}/{{ cookiecutter.package_name }}
    :alt: Latest Travis CI build status
 {%- endif %}
 
