@@ -1,14 +1,14 @@
-python-cookiecutter-cli-minimal
+python-cookiecutter-cli-submodule-minimal
 ===============================
 
-An opinionated, minimal [cookiecutter](https://github.com/audreyr/cookiecutter) template for Python cli entry points.
+A minimal [cookiecutter](https://github.com/audreyr/cookiecutter) template for Python cli submodules.
 
 Usage
 -----
 
     pip install cookiecutter
-    git clone https://github.com/misdirectedpuffin/python-cookiecutter-cli-minimal.git
-    cookiecutter python-cookiecutter-cli-minimal/
+    git clone https://github.com/misdirectedpuffin/python-cookiecutter-cli-submodule-minimal.git
+    cookiecutter python-cookiecutter-cli-submodule-minimal/
 
 You should then change the classifiers in `{{ package_name }}/setup.py` - it is assumed that the project will run on the latest version of Python 3, so you should remove any classifiers that do not apply. The full list of PyPI classifiers can be found [here](https://pypi.python.org/pypi?:action=list_classifiers).
 
